@@ -1,0 +1,302 @@
+/* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
+.bg-primary { background-image: url("stripes.png") !important;
+			  background-size: cover;
+}
+
+#about {
+    padding: 60px 0;
+}
+
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    gap: 2rem;
+}
+
+.about-image-stack {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 300px;
+}
+
+.about-image-stack img {
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-text h2 {
+    margin-bottom: 1rem;
+}
+
+.about-text ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-box {
+    background-color: rgba(255, 255, 255, 0.9); /* light grey, change to any color */
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    max-width: 700px;
+    text-align: center;
+}
+
+.text-box h2 {
+    margin-bottom: 1rem;
+}
+
+.text-box ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+}
+
+#about {
+    padding: 60px 0;
+    background-image: url('shellbackground.png'); /* replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /* Optional: makes it parallax-style */
+}
+
+/* Styles ONLY for the #services section */
+.beach-section {
+    background-image: url('coverpage.png'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    padding: 100px 20px; /* Adjust spacing as needed */
+    text-align: center;
+    color: #000;
+}
+
+/* Overlay div to center the content */
+.beach-overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Colored box behind text */
+.beach-textbox {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    padding: 40px;
+    border-radius: 15px;
+    max-width: 700px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Background + layout for Food section only */
+.food-section {
+    background-image: url('sky.png'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 100px 0;
+    color: #000;
+}
+
+.food-content {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+    padding: 0 2rem;
+    align-items: center;
+}
+
+/* Left side: Text in colored box */
+.food-text {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.food-textbox {
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white */
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    max-width: 100%;
+    text-align: center;
+}
+
+/* Right side: Stacked photos */
+.food-photos {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.food-photos img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    flex: 1;
+}
+
+.boat-section {
+    background-image: url('backgroundd.png'); /* Replace with your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 0;
+    color: #000;
+}
+
+.boat-top {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem;
+    flex-wrap: wrap;
+}
+
+.boat-top img {
+    width: 30%;
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.boat-bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+}
+
+.boat-textbox {
+    background-color: rgba(255, 255, 255, 0.9); /* Light-colored box */
+    padding: 2rem;
+    border-radius: 12px;
+    max-width: 800px;
+    width: 90%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* Section Background */
+#five {
+  background-image: url('stripes.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 40px 20px;
+}
+
+/* Container */
+.food-section-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Text Box Styling */
+.food-text-box {
+  background-color: rgba(255, 248, 220, 0.9); /* light peach */
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Image Row Styling */
+.food-image-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.food-image-row img {
+  width: 100%;
+  max-width: 250px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+h1, h2 {
+	font-family: "Libre Baskerville", Bold, serif;
+}
+
+#about p, li {
+	font-family: "Times New Roman", Times, serif;
+}
+
+#services p {
+	font-family: "Times New Roman", Times, serif;
+}
+
+#contact p {
+	font-family: "Times New Roman", Times, serif;
+}
+
+#four p {
+	font-family: "Times New Roman", Times, serif;
+}
+
+#five p {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.custom-checkout-btn {
+    background-color: #F5F5DC;  /* Custom color */
+    color: #000;                /* Text color */
+    font-family: 'Libre Baskerville', serif;  /* Custom font */
+    font-weight: bold;
+    border-radius: 30px;        /* Rounded pill-like shape */
+    padding: 12px 30px;         /* Bigger padding for better feel */
+    border: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+}
+
+.custom-checkout-btn:hover {
+    background-color: #F0F8FF;  /* Slightly darker on hover */
+    color: #fff;
+}
+
+#title {
+	font-family: "Libre Baskerville", Bold, serif;
+}
+
+#headd h1 {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 150px;
+}
+
+#copy p {
+	font-family: "Times New Roman", Times, serif;
+}
